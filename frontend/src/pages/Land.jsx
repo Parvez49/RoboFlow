@@ -7,6 +7,7 @@ import VideoDescriptionCarousel from '../components/library/VideoDescriptionCaro
 import IndustryContainer from '../components/IndustryContainer';
 import Developer from '../components/Developer';
 import OpenSource from '../components/OpenSource';
+import SecurityContainer from '../components/SecurityContainer';
 
 const Land = () => {
     return (
@@ -18,6 +19,7 @@ const Land = () => {
             <IndustryContainer />
             <Developer />
             <OpenSource />
+            <SecurityContainer />
 
         </body>
     );
